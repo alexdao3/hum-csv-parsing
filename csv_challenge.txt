@@ -1,0 +1,26 @@
+Attached is a file containing data about a company's payments over a 1 year period. The file is in CSV format, and each row after the first contains data about an individual transaction.
+
+These are the column headers, and an example row of data:
+
+Column Headers: Transaction ID, Financial Institution, Payment Type, Amount, Currency, Vendor, Tags, Date
+Example Rows:   19385281, "Wells Fargo", "Debit Card", "1.07", "USD", "STARBUCKS, INC.", "personal food", "2008-09-15Z15:53:00" 
+
+
+Use the data to answer these questions:
+
+1. How much was spent on the Wells Fargo Debit Card?
+
+2. How many unique vendors did the company transact with?
+
+3. The company is worried too much money is being spent on perks for employees. How much is being spent on items tagged either "personal" or "food"?
+
+4. The company had a party in London the weekend of January 23-25, 2012. How much did they spend over that period? Tip: The time zone during this period is equivalent to UTC.
+
+5. On how many evenings in December did the company buy from at least two distinct bars? Only count purchases made in December between 6:00 PM to 12:00 AM Pacific Time. The names of the bars are: "RICKHOUSE", "P.C.H.", "BLOODHOUND", "IRISH BANK".
+
+6. Search the data for "suspicious spends" for each vendor. Suspicious spends are defined as more than 1.75 standard deviations above the mean of purchases for a given vendor. Print the vendor names and transaction IDs.
+
+
+Details about the data: Each Transaction ID is unique to a given financial institution. Tags are separated by spaces. The date is in ISO 8601 format, and all dates are UTC. 
+
+You can use any language you're comfortable with. If you do some work in a REPL, make sure to move that over to a real script so that we can see your work. 
